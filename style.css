@@ -84,7 +84,7 @@ a:hover {
 #rightbar {
   position: fixed;
   width: 300px;
-  left: 950px;
+  right: 0px;
   top: 0;
   bottom: 0;
 }
