@@ -1,0 +1,74 @@
+body {
+  background-color: lightblue;
+  font-family: arial;
+  color: red;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+
+h1 {
+  color: purple;
+  font-family: helvetica;
+  font-size: 40px;
+  line-height: 15px;
+  font-family: 'Pangolin', cursive;
+}
+
+h2, h3 {
+  color: green;
+  font-family: helvetica;
+  font-size: 25px;
+  line-height: 15px;
+  font-family: 'Pangolin', cursive;
+}
+
+a {
+  color: yellow;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Pangolin', cursive;
+}
+a:hover {
+    color: #FF00FF;
+}
+
+.card {
+  background: white;
+  border: 1px dotted green;
+  border-radius: 2px;
+  box-shadow: 1px;
+  padding: 5px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.movie-image {
+  width: 200px;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.text-font {
+  font-family: 'Pangolin', cursive;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
