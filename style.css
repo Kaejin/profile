@@ -19,7 +19,7 @@ h2, h3 {
   color: green;
   font-family: helvetica;
   font-size: 25px;
-  line-height: 15px;
+  line-height: 25px;
   font-family: 'Pangolin', cursive;
 }
 
@@ -71,4 +71,27 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+#leftbar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#rightbar {
+  position: fixed;
+  width: 300px;
+  left: 870px;
+  top: 0;
+  bottom: 0;
+}
+
+
+
+
+#page-content {
+  margin-left: 0px;
 }
